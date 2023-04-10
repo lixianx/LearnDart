@@ -6,3 +6,7 @@ import '00_HelloDart.dart';
 
 // Importing files
 import '01_Variables.dart';
+
+void main() {
+  flybyObjects.forEach(print);
+}

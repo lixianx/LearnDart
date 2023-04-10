@@ -12,6 +12,9 @@ void main() {
 
   var nums = [0, 1, 2, 3, 4, 5];
   var nn = nums.map((num) => num * 2);
+  //等价于int func(int num){
+  //          return num * 2;
+  //      }
   nn.forEach(print);
 
   //筛选出含有字符串turn的元素并将其输出
