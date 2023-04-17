@@ -1,4 +1,4 @@
-enum PlanetType { terrestrial, gas, ice }
+enum PlanetType { terrestrial, gas, ice }//枚举类
 
 /// Enum that enumerates the different planets in our solar system
 /// and some of their properties.

@@ -11,7 +11,7 @@ class Spacecraft {
     //构造函数
     // Initialization code goes here.
   }
-
+  //针对性构造函数
   // Named constructor that forwards to the default one.
   Spacecraft.unlaunched(String name) : this(name, null); //this:构造函数
 
@@ -21,6 +21,10 @@ class Spacecraft {
     // Type promotion doesn't work on getters.
     var launchDate = this.launchDate;
     if (launchDate != null) {
+      //DateTime.now()返回当前时间对象
+      //difference()返回两个日期的时间间隔
+      //inDays()将时间间隔转为天数间隔
+      //~/整除
       int years = DateTime.now().difference(launchDate).inDays ~/ 365;
       print('Launched: $launchYear ($years years ago)');
     } else {
