@@ -1,0 +1,8 @@
+生成exe可执行文件
+dart compile exe 文件路径
+
+生成AOT文件
+dart compile aot-snapshot 文件路径
+
+指定路径
+dart compile exe 文件路径 -o 目标路径
